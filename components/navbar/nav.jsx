@@ -25,7 +25,7 @@ export default function navbar() {
                     <ButtonsList src='/icons/ban.svg' link='/screen/banandkick' tooltip='Ban And Kick' />
                     <ButtonsList src='/icons/top.svg' link='/screen/topplayers' tooltip='Top Players' />
                     <ButtonsList src='/icons/admin.svg' link='/screen/adminpanel' tooltip='Admin' />
-                    <ButtonsList src='/icons/discord.svg' link=' https://discord.gg/mgfvPfEB' tooltip='Discord' />
+                    <ButtonsList src='/icons/discord.svg' link='https://discord.gg/mgfvPfEB' tooltip='Discord' />
                     <ButtonsList src='/icons/about.svg' link='/screen/about' tooltip='About' />
                 </ul>
                 {/* Dropdown */}
@@ -33,12 +33,12 @@ export default function navbar() {
                     <Menu menuButton={
                         <MenuButton><div className='text-center text-xl'> Menu </div></MenuButton>}>
 
-                        <MenuItem><Link href='cod4://45.32.113.186:28960'><a><Image src='/icons/launch.svg' alt="" width={12} height={12} className='pr-2' /> Launch</a></Link></MenuItem>
+                        <MenuItem><a href='cod4://45.32.113.186:28960'><Image src='/icons/launch.svg' alt="" width={12} height={12} className='pr-2' /> Launch</a></MenuItem>
                         <MenuItem><Link href='/screen/screenshots'><a><Image src='/icons/ss.svg' alt="" width={12} height={12} className='pr-2' /> Screenshots</a></Link></MenuItem>
                         <MenuItem><Link href='/screen/banandkick'><a><Image src='/icons/ban.svg' alt="" width={12} height={12} className='pr-2' /> Ban  and kick</a></Link></MenuItem>
                         <MenuItem><Link href='/screen/topplayers'><a><Image src='/icons/top.svg' alt="" width={12} height={12} className='pr-2' />  Top players</a></Link></MenuItem>
                         <MenuItem><Link href='/screen/adminpanel'><a><Image src='/icons/admin.svg' alt="" width={12} height={12} className='pr-2' /> Admin</a></Link></MenuItem>
-                        <MenuItem><Link href='https://discord.gg/mgfvPfEB'><a><Image src='/icons/discord.svg' alt="" width={12} height={12} className='pr-2' /> Discord</a></Link></MenuItem>
+                        <MenuItem><a href='https://discord.gg/mgfvPfEB'><Image src='/icons/discord.svg' alt="" width={12} height={12} className='pr-2' /> Discord</a></MenuItem>
                         <MenuItem><Link href='/screen/about'><a><Image src='/icons/about.svg' alt="" width={12} height={12} className='pr-2' /> About</a></Link></MenuItem>
                     </Menu>
                 </div>

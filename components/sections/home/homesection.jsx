@@ -15,7 +15,7 @@ export default function homesection() {
                             <HomeBtns src='/svg/ban_button.svg' link='/screen/banandkick' />
                             <HomeBtns src='/svg/top_button.svg' link='/screen/topplayers' />
                             <HomeBtns src='/svg/admin_button.svg' link='/screen/adminpanel' />
-                            <HomeBtns src='/svg/discord_button.svg' link=' https://discord.gg/mgfvPfEB' />
+                            <HomeBtns src='/svg/discord_button.svg' link='https://discord.gg/mgfvPfEB' />
                             <HomeBtns src='/svg/about_button.svg' link='/screen/about' />
                         </div>
                     </div>
